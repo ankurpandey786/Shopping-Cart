@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeShop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Me<span>Shop</span></div>
+        <div class="nav-text">
+
+            <a href="../shop/index.html" id="cart" style="color: white;">Home</a>
+
+            <a href="../login.html" id="cart" style="color: white;">Login</a>
+            <a href="../signup.html" id="cart" style="color:white;">Signup</a>
+
+            
+            <a href="../cart/index.html" id="cart" style="color:white" >MyCart(0)</a>
+
+            <a href="../profile/index.html" id="cart" style="color:white" >Profile</a>
+
+        </div>
+    </header>
+
+
+    <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Search for products...">
+    </div>
+
+    <div class="main-container">
+
+        <div class="sidebar">
+            <div class="filter-section">
+                <h3>Colors</h3>
+                <label><input type="checkbox"> Red</label>
+                <label><input type="checkbox"> Blue</label>
+                <label><input type="checkbox"> Green</label>
+                <label><input type="checkbox"> Black</label>
+                <label><input type="checkbox"> White</label>
+            </div>
+
+            <div class="filter-section">
+                <h3>Sizes</h3>
+                <label><input type="checkbox"> S</label>
+                <label><input type="checkbox"> M</label>
+                <label><input type="checkbox"> L</label>
+                <label><input type="checkbox"> XL</label>
+            </div>
+
+            <div class="filter-section">
+                <h3>Price Range</h3>
+                <label><input type="checkbox"> $0 to $25</label>
+                <label><input type="checkbox"> $25 to $50</label>
+                <label><input type="checkbox"> $50 to $100</label>
+                <label><input type="checkbox"> $100 onwards</label>
+            </div>
+
+            <button class="apply-filter">Apply Filter</button>
+        </div>
+
+        <div class="content">
+            <!-- Tabs Section -->
+            <div class="tab-section">
+                <button class="tab active" onclick="changeTab(this)">All</button>
+                <button class="tab" onclick="changeTab(this)">Mens</button>
+                <button class="tab" onclick="changeTab(this)">Womens</button>
+                <button class="tab" onclick="changeTab(this)">Jewellery</button>
+                <button class="tab" onclick="changeTab(this)">Electronics</button>
+            </div>
+
+            <h2>Men’s Clothing</h2>
+            <div class="products">
+
+                <div class="product">
+                    <img src="https://github.com/jayeshsadhwani99/f3-project/blob/main/shop/tshirt.png?raw=true" alt="Shirt">
+                    <div class="product-info">
+                        <p>$100</p>
+                        <p>Colors: ⚫ ⚪ 🔵</p>
+                        <p>Sizes: S, M, L</p>
+                        <p>Rating: ⭐⭐⭐</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product"><img src="https://github.com/jayeshsadhwani99/f3-project/blob/main/shop/tshirt.png?raw=true" alt="Shirt"><div class="product-info"><p>$100</p><p>Colors: ⚫ ⚪ 🔵</p><p>Sizes: S, M, L</p><p>Rating: ⭐⭐⭐</p><button onclick="addToCart()">Add to Cart</button></div></div>
+                <div class="product"><img src="https://github.com/jayeshsadhwani99/f3-project/blob/main/shop/tshirt.png?raw=true" alt="Shirt"><div class="product-info"><p>$100</p><p>Colors: ⚫ ⚪ 🔵</p><p>Sizes: S, M, L</p><p>Rating: ⭐⭐⭐</p><button onclick="addToCart()">Add to Cart</button></div></div>
+                <div class="product"><img src="https://github.com/jayeshsadhwani99/f3-project/blob/main/shop/tshirt.png?raw=true" alt="Shirt"><div class="product-info"><p>$100</p><p>Colors: ⚫ ⚪ 🔵</p><p>Sizes: S, M, L</p><p>Rating: ⭐⭐⭐</p><button onclick="addToCart()">Add to Cart</button></div></div>
+                <div class="product"><img src="https://github.com/jayeshsadhwani99/f3-project/blob/main/shop/tshirt.png?raw=true" alt="Shirt"><div class="product-info"><p>$100</p><p>Colors: ⚫ ⚪ 🔵</p><p>Sizes: S, M, L</p><p>Rating: ⭐⭐⭐</p><button onclick="addToCart()">Add to Cart</button></div></div>
+                <div class="product"><img src="https://github.com/jayeshsadhwani99/f3-project/blob/main/shop/tshirt.png?raw=true" alt="Shirt"><div class="product-info"><p>$100</p><p>Colors: ⚫ ⚪ 🔵</p><p>Sizes: S, M, L</p><p>Rating: ⭐⭐⭐</p><button onclick="addToCart()">Add to Cart</button></div></div>
+                <div class="product"><img src="https://github.com/jayeshsadhwani99/f3-project/blob/main/shop/tshirt.png?raw=true" alt="Shirt"><div class="product-info"><p>$100</p><p>Colors: ⚫ ⚪ 🔵</p><p>Sizes: S, M, L</p><p>Rating: ⭐⭐⭐</p><button onclick="addToCart()">Add to Cart</button></div></div>
+                <div class="product"><img src="https://github.com/jayeshsadhwani99/f3-project/blob/main/shop/tshirt.png?raw=true" alt="Shirt"><div class="product-info"><p>$100</p><p>Colors: ⚫ ⚪ 🔵</p><p>Sizes: S, M, L</p><p>Rating: ⭐⭐⭐</p><button onclick="addToCart()">Add to Cart</button></div></div>
+                <div class="product"><img src="https://github.com/jayeshsadhwani99/f3-project/blob/main/shop/tshirt.png?raw=true" alt="Shirt"><div class="product-info"><p>$100</p><p>Colors: ⚫ ⚪ 🔵</p><p>Sizes: S, M, L</p><p>Rating: ⭐⭐⭐</p><button onclick="addToCart()">Add to Cart</button></div></div>
+                <div class="product"><img src="https://github.com/jayeshsadhwani99/f3-project/blob/main/shop/tshirt.png?raw=true" alt="Shirt"><div class="product-info"><p>$100</p><p>Colors: ⚫ ⚪ 🔵</p><p>Sizes: S, M, L</p><p>Rating: ⭐⭐⭐</p><button onclick="addToCart()">Add to Cart</button></div></div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js">
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-spacing: 12px;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+
+.logo span {
+    color: red;
+    font-style: italic;
+}
+
+.nav-text span {
+    margin-right: 25px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.search-container {
+    width: 100%;
+    padding: 10px;
+    background: #f5f5f5;
+}
+
+.search-bar {
+    width: 98%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.main-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 10%;
+    background: black;
+    color: white;
+    padding: 15px;
+    height: 100dvw;
+}
+
+.filter-section {
+    margin-bottom: 100px;
+}
+
+.filter-section h3 {
+    border-bottom: 20px solid white;
+    padding-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+.apply-filter {
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.content {
+    width: 80%;
+    padding: 15px;
+}
+
+.tab-section {
+    display: flex;
+    background: white;
+    padding: 10px;
+}
+
+.tab {
+    color: black;
+    background: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.tab.active {
+    background: black;
+    color: white;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 18%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+}
+
+.product img {
+    width: 100%;
+}
+
+button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}

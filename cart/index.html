@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Shop<span>Now</span></div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Shop</a></li>
+            <li><a href="index.html">Cart</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="cart-container">
+        <!-- Cart Items Section -->
+        <div class="cart-items">
+            <!-- Items will be dynamically added here -->
+        </div>
+
+        <!-- Checkout Section -->
+        <div class="checkout">
+            <h2>Order Summary</h2>
+            <ul id="order-list">
+                <!-- Order summary will be dynamically added here -->
+            </ul>
+            <p class="total">Total: $<span id="total-amount">0</span></p>
+            <button id="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
